@@ -1,0 +1,73 @@
+table,td,tr{
+    
+    margin: auto;
+}
+.tab{
+    margin: auto;
+    font-size: 30px;
+}
+.tabhead{
+    text-align: center;
+}
+
+
+.weatherhead{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.city{
+    text-align: center;
+}
+.mainIcon{
+    scale: 2;
+    margin-right: 2rem;
+}
+.temp{
+    scale: 2;
+    margin-left: 2rem;
+}
+.des{
+    text-align: center;
+    scale: 1.5;
+    margin-left: 2rem;
+}
+
+.mainBox{
+    /* border: 2px solid black; */
+    width:40rem;
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+}
+.mainBox>div{
+    border: 2px solid black;
+    width: 16rem;
+    height: 8rem;
+    border-radius: 2rem;
+}
+body{
+    background-size: cover;
+}
+
+.bodyDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+@media(max-width:600px){
+    .bodyDiv{
+        scale: 0.6;
+        max-width: 0px;
+    }
+    body{
+        height: 100vh;
+    }
+    
+    
+}
